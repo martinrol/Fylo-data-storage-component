@@ -1,0 +1,22 @@
+:root {
+    --gradient-1: hsl(6, 100%, 80%) ;
+    --gradient-2: hsl(335, 100%, 65%);
+    --pale-Blue: hsl(243, 100%, 93%);
+    --grayish-Blue: hsl(229, 7%, 55%);
+    --dark-Blue: hsl(228, 56%, 26%);
+    --very-Dark-Blue: hsl(229, 57%, 11%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* -------------------------------------------------- */
+
