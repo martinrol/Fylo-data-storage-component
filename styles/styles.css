@@ -72,6 +72,7 @@ html {
     padding: 8px;
     background-color: var(--very-Dark-Blue);
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .container__fylo--tools img {
