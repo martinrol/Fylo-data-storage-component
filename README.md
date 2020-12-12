@@ -1,5 +1,7 @@
 # Frontend Mentor - Fylo data storage component
 
+## This project is a Frontend Mentor challenge. Its layout is in this link:
+
 ![Design preview for the Fylo data storage component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋

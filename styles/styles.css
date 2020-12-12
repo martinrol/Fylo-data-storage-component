@@ -2,9 +2,9 @@
     --gradient-1: hsl(6, 100%, 80%) ;
     --gradient-2: hsl(335, 100%, 65%);
     --pale-Blue: hsl(243, 100%, 93%);
-    --grayish-Blue: hsl(229, 7%, 55%);
     --dark-Blue: hsl(228, 56%, 26%);
     --very-Dark-Blue: hsl(229, 57%, 11%);
+    --made-by: rgb(255, 152, 0);
 }
 
 * {
@@ -20,3 +20,156 @@ html {
 
 /* -------------------------------------------------- */
 
+.text-bold {
+    font-weight: 700;
+}
+
+
+.container {
+    width: 100%;
+    min-width: 320px;
+    height: 100vh;
+    background-color: var(--very-Dark-Blue);
+    background-image: url(../images/bg-mobile.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container__cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 95%;
+    margin: 0 auto;
+}
+
+.container__fylo,
+.container__storage {
+    width: 100%;
+    height: max-content;
+    padding: 30px;
+    background-color: var(--dark-Blue);
+    border-radius: 8px;
+}
+
+.container__fylo {
+    margin-bottom: 20px;
+    border-top-right-radius: 90px;
+}
+
+.container__fylo--tools ul{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 30px;
+}
+
+.container__fylo--tools li {
+    list-style: none;
+    padding: 8px;
+    background-color: var(--very-Dark-Blue);
+    border-radius: 8px;
+}
+
+.container__fylo--tools img {
+    width: 24px;
+    height: 22px;
+}
+
+.container__storage--title {
+    font-size: 1.6rem;
+    text-align: center;
+    color: var(--pale-Blue);
+}
+
+.container__storage--scala {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    margin-top: 16px;
+    background-color: var(--very-Dark-Blue);
+    border-radius: 50px;
+}
+
+.container__storage--scala-color {
+    position: absolute;
+    display: inline-block;
+    top: 2.5px;
+    left: 2px;
+    width: 70%;
+    height: 15px;
+    background: linear-gradient(to right, var(--gradient-1) 0%, var(--gradient-2) 100%);
+    border-radius: 50px;
+}
+
+.container__storage--scala-color-ball {
+    position: absolute;
+    display: inline-block;
+    top: 1px;
+    left: calc(99.5% - 13px);
+    width: 13px;
+    height: 13px;
+    background-color: var(--pale-Blue);
+    border-radius: 50%;
+}
+
+.container__storage--numbers {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0;
+}
+
+.container__storage--numbers p { 
+    font-size: 1.3rem;
+    color: var(--pale-Blue);
+}
+
+.container__storage--box {
+    position: absolute;
+    left: calc(50% - 90px);
+    width: 180px;
+    height: max-content;
+    padding: 18px;
+    background-color: var(--pale-Blue);
+    color: var(--very-Dark-Blue);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container__storage--box span {
+    font-size: 2.8rem;
+    padding-right: 5px;
+}
+
+.container__storage--box p {
+    font-size: 1.6rem;
+}
+
+.made-by {
+    width: 100%;
+    height: 5%;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.made-by p,
+.made-by a {
+    color: var(--pale-Blue);
+}
+
+.made-by a {
+    text-decoration: none;
+    border-bottom: 2px solid var(--made-by);
+    transition: all .2s ease 0s;
+}
+
+.made-by a:hover {
+    color: var(--made-by);
+    border-bottom: none;
+    
+}

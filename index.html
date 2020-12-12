@@ -8,14 +8,48 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/desktop.css" media="(min-width: 800px)">
   </head>
   <body>
-
-    You’ve used 815 GB of your storage
-
-    185 GB Left
-    
-    0 GB
-    1000 GB
+    <div class="container">
+      <div class="container__cards">
+          <section class="container__fylo">
+            <figure>
+              <img src="./images/logo.svg" alt="Fylo Logotype">
+            </figure>
+            <div class="container__fylo--tools">
+              <ul>
+                <li>
+                  <img src="./images/icon-document.svg" alt="Document Icon">
+                </li>
+                <li>
+                  <img src="./images/icon-folder.svg" alt="Folder Icon">
+                </li>
+                <li>
+                  <img src="./images/icon-upload.svg" alt="Upload Icon">
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="container__storage">
+            <p class="container__storage--title">You’ve used <span class="text-bold">815 GB</span> of your storage</p>
+            <div class="container__storage--scala">
+              <span class="container__storage--scala-color">
+                <span class="container__storage--scala-color-ball"></span>
+              </span>
+            </div>
+            <div class="container__storage--numbers">
+              <p>0 GB</p>
+              <p>1000 GB</p>
+            </div>
+            <div class="container__storage--box">
+              <p><span class="text-bold">185</span> GB LEFT</p>
+            </div>
+          </section>
+        </div>
+        <div class="made-by">
+          <p>Made by <a href="https://github.com/martinrol">Martínrol</a> 🖤</p>
+        </div>
+      </div>
   </body>
 </html>
