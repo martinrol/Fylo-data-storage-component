@@ -12,11 +12,14 @@
 
 .container__fylo {
     width: 40%;
+    max-width: 347px;
     margin-right: 30px;
 }
 
 .container__storage {
+    position: relative;
     width: 60%;
+    max-width: 533px;
 }
 
 .container__storage--title {
@@ -28,7 +31,8 @@
 }
 
 .container__storage--box {
-    top: calc(50% - 132px);
-    left: 70%;
+    position: absolute;
+    top: calc(50% - 120px);
+    left: calc(90% - 180px);
     padding: 14px;
 }
